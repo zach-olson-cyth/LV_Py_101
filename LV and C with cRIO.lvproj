@@ -94,6 +94,14 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
+		<Item Name="legacy" Type="Folder">
+			<Item Name="tune maker so.vi" Type="VI" URL="../LabVIEW SO/tune maker so.vi"/>
+		</Item>
+		<Item Name="subVI" Type="Folder">
+			<Item Name="Coff creator.vi" Type="VI" URL="../LabVIEW SO/subVIs/Coff creator.vi"/>
+			<Item Name="Learning coeff (SubVI).vi" Type="VI" URL="../LabVIEW SO/subVIs/Learning coeff (SubVI).vi"/>
+			<Item Name="Save Learning Coeff (SubVI).vi" Type="VI" URL="../LabVIEW SO/subVIs/Save Learning Coeff (SubVI).vi"/>
+		</Item>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
@@ -863,8 +871,9 @@ AddOutputFilter chunkFilter
 				<Item Name="Build Specifications" Type="Build"/>
 			</Item>
 		</Item>
+		<Item Name="LV cRIO.vi" Type="VI" URL="../LV and Python Folder/LV cRIO.vi"/>
 		<Item Name="test so.vi" Type="VI" URL="../LabVIEW SO/test so.vi"/>
-		<Item Name="tune maker so.vi" Type="VI" URL="../LabVIEW SO/tune maker so.vi"/>
+		<Item Name="Tune and Beat Learning.vi" Type="VI" URL="../LabVIEW SO/Tune and Beat Learning.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
